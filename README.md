@@ -49,6 +49,13 @@ Bronze Layer :
          Datasets - HTTP - Relative path
        Created a file - file_array.json to implement metadata driven approach for copying all files dynamically
 
-         ADF -
-         Look 
+     ADF -
+         Lookup Activity -> For each and copy activity
+         Lookup Activity reads file_array.json from ADLS
+         Foreach gets the file names
+         Copy activity copies the looped file data into raw folder in ADLS using parameter to output the file name dynamically.
 
+
+3. Databricks - 
+         
+   
